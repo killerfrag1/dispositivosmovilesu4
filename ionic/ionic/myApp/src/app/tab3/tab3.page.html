@@ -1,0 +1,49 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Usuario
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Tab 2</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <ion-card>
+    <img alt="Silhouette of mountains" src="https://ionicframework.com/docs/img/demos/card-media.png" />
+    <ion-card-header>
+        <ion-card-title>Datos Personales:</ion-card-title>
+    </ion-card-header>
+
+    <style>
+      /* Estilos para centrar el contenido */
+      body {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          height: 100vh;
+          margin: 0;
+      }
+      /* Estilos adicionales para el card */
+      ion-card {
+          width: 300px; /* Ajusta el ancho según tus necesidades */
+          text-align: center;
+      }
+      ion-button {
+          margin-top: 10px;
+      }
+  </style>
+    <ion-card-content>
+        <p>ID:</p>
+        <p>Nombre</p>
+        <p>Apellido</p>
+        <p>Dirección</p>
+        <p>Sexo</p>
+    </ion-card-content>
+    <ion-button shape="round">Editar Perfil</ion-button>
+</ion-card>
+</ion-content>
